@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_base1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doosan"
+        android:background="#b5f4e9"
+        />
+    <Button
+        android:id="@+id/btn_base2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="bears"
+        android:background="#d5a3e2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_base1"
+        android:layout_above="@id/btn_base2"
+        android:text="subin"
+        android:background="#ed2bb6"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn_base1"
+        android:text="gunwo"
+        android:background="#efa4a4"
+        />
+
+
+</RelativeLayout>
